@@ -5,20 +5,15 @@
   background: #ffffff;
 }
 
-@font-face {
-    font-family: "Avenir Next" ;
-    src: url("../fonts/RolexLight.woff2");
-}
-
 .logincontainer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    
 }
 
 #welcome {
-  font-family: "Avenir Next";
+  font-family: "New Times Roman";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -65,4 +60,16 @@ button{
     background-color: #39CDCC;
     color: white;
     border-radius: 5px;
+}
+
+.logo{
+    padding: 10px;
+    margin:130px 0 0 50px ;
+}
+
+.pic{
+    background-color: #213f7d;
+    height: 260px;
+    margin:40px 0 0 50px;
+    width: 450px;
 }
