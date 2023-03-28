@@ -1,7 +1,8 @@
-import React, { Fragment } from "react";
 import { useState } from "react";
 import "./login.css";
-
+import loginImage from "../images/pablo-sign-in1.png";
+import logoicon from "../images/Union.png";
+import logoname from "../images/lendsqr.png";
 
 const LoginForm = () => {
   const MyFun = () => {
@@ -20,9 +21,10 @@ const LoginForm = () => {
     <>
       <div className="logincontainer">
         <div>
-          <h2 className="logo">lendsqr</h2>
+          <img src={logoicon} alt="" className="logo"/>
+          <img src={logoname} alt="" />
           <div className="pic">
-            <img src="./images/pablo-sign-in1.png" alt="" />
+            <img src={loginImage} alt="" />
           </div>
         </div>
         
