@@ -23,11 +23,7 @@ const Header = () =>{
   
   <div className="menu">
 <div className="search">
-<input
-            
-            type="text"
-            placeholder="username"
-          />
+<input type="text" placeholder="username"/>
         <button type="submit"> submit</button>
 </div>
         
