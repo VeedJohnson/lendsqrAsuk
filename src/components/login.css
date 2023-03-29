@@ -5,11 +5,10 @@
   background: #ffffff;
 }
 
-.logincontainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
+.logincontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #welcome {
@@ -25,51 +24,48 @@
   color: #213f7d;
 }
 
-.form{
-    margin: 200px 130px 40px 50px;
-    width: 40%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.form {
+  margin: 200px 130px 40px 50px;
+  width: 40%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-p{
-    margin: 8px 0 25px 0;
-    color: #39CDCC;
-}
-
-input{
-    border: 0.7px solid #545F7D;
-    margin: 10px 0 10px 0 ;
-    height: 30px;
-    border-radius: 5px;
-}
-input:focus{
-    border-color: #39CDCC;
+form p {
+  margin: 8px 0 25px 0;
+  color: #39cdcc;
 }
 
-a{
-    text-decoration: none;
-    color: #39CDCC;
-    margin-bottom: 20px;
+form input {
+  border: 0.7px solid #545f7d;
+  margin: 10px 0 10px 0;
+  height: 30px;
+  border-radius: 5px;
+}
+input:focus {
+  border-color: #39cdcc;
 }
 
-button{
-    height: 35px;
-    border: none;
-    background-color: #39CDCC;
-    color: white;
-    border-radius: 5px;
+form a {
+  text-decoration: none;
+  color: #39cdcc;
+  margin-bottom: 20px;
 }
 
-.logo{
-    padding: 10px;
-    margin:60px 0 0 50px ;
+button {
+  height: 35px;
+  border: none;
+  background-color: #39cdcc;
+  color: white;
+  border-radius: 5px;
 }
 
-.pic{
-    
-    
-    margin:40px 0 0 50px;
-   
+.logo {
+  padding: 10px;
+  margin: 60px 0 0 50px;
+}
+
+.pic {
+  margin: 40px 0 0 50px;
 }
